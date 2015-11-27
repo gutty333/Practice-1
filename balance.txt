@@ -1,0 +1,6 @@
+
+Your starting balance at the beginning of the three month period was: $3078
+The total deposits made during the three month period was: $1467
+The total withdrawals made during the three month period was: $523
+The total interest rate for the three month period was: 2.5 percent
+The final balance after the three month period was: $11096.2
