@@ -10,7 +10,6 @@ using namespace std;
 
 int main()
 {
-
 	int acre = 43560;
 
 	double squareMeter = 10.7639;

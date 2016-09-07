@@ -44,7 +44,7 @@ int main()
 	{
 		case 1:
 			time = feet / air;
-			cout << "Your time  in air is " << time << endl;
+			cout << "Your time in air is " << time << endl;
 			break;
 		case 2:
 			time = feet / water;

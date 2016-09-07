@@ -16,7 +16,7 @@ int main()
 	{
 		for (int y = 1; y <= 16; y++)
 		{
-			cout << x << " ";
+			cout << char(x) << " ";
 			x++;
 		}
 		cout << endl;

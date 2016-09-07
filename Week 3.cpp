@@ -26,7 +26,7 @@ int main()
 
 	// Here is an example of a null statement in which the condition has a semi colon at the end
 	// The statements will execute no matter what if you make this error
-	if (average == 90)
+	if (average == 90);
 	{
 		cout << "Do not use semi colons after the if statement condition" << endl;
 	}

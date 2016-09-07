@@ -34,7 +34,7 @@ int main()
 	annualCost = monthCost * 12;
 
 	cout << "Your monthly cost is " << fixed << setprecision(2) << monthCost << endl;
-	cout << "Your annual cost is " << fixed << setprecision(2) << annualCost << endl;
+	cout << "Your annual cost is " << annualCost << endl;
 
 	return 0;
 }

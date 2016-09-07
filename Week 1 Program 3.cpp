@@ -4,16 +4,15 @@
 #include <string>
 using namespace std;
 
-
 int main()
 {
+	string species;
 
-	string animal;
+	cout << "What is your favorite animal? ";
+	getline(cin, species);
 
-	cout << "Enter your favorite animal: ";
-	cin >> animal;
-
-	cout << "Your favorite animal is a/an " << animal << endl;
+	cout << endl << "Your favorite animal is a/an " << species << endl;
+	
 
 	return 0;
 }

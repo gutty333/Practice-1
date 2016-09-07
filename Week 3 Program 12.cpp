@@ -3,7 +3,7 @@
 
 	Write a program that ask the names of three runners
 	Also ask for the time it took each of them to finish the race
-	The program should display you can in first, second, and third
+	The program should display who came in first, second, and third
 	Input validation, accept positive numbers for the time
 ******************************************************/
 #include <iostream>

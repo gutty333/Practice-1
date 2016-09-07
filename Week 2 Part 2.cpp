@@ -39,7 +39,7 @@ int main()
 	// The setw manipulator will add spaces
 	cout << endl << endl << setw(20) << "Hello World" << endl;
 	int num1 = 2312, num2 = 324, num3 = 4324;
-	cout << setw(6) << num1 << setw(6) << num2 << setw(6) << num3 << endl;
+	cout << setw(6) << num1 << setw(30) << num2 << setw(6) << num3 << endl;
 	// The manipulators for decimal control
 	double test1 = 12E4;
 	cout << fixed << test1 << endl;

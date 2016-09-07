@@ -27,10 +27,11 @@ int main()
 					price = 99.0;
 
 	int unitNumber;
+	double total;
 
-	cout << "How many units are buying? ";
+	cout << "How many units are you buying? ";
 	cin >> unitNumber;
-
+	total = unitNumber * price;
 	cout << fixed << setprecision(2);
 
 	if (unitNumber < 0)
@@ -43,19 +44,19 @@ int main()
 	}
 	else if (unitNumber >= 10 && unitNumber <= 19)
 	{
-		cout << "The total is $" << (unitNumber * price) * discount1 << " including the discount of 20%" << endl;
+		cout << "The total is $" << total - (total * discount1) << " including the discount of 20%" << endl;
 	}
 	else if (unitNumber >= 20 && unitNumber <= 49)
 	{
-		cout << "The total is $" << (unitNumber * price) * discount2 << " including the discount of 30%" << endl;
+		cout << "The total is $" << total - (total * discount2) << " including the discount of 30%" << endl;
 	}
 	else if (unitNumber >= 50 && unitNumber <= 99)
 	{
-		cout << "The total is $" << (unitNumber * price) * discount3 << " including the discount of 40%" << endl;
+		cout << "The total is $" << total - (total * discount3) << " including the discount of 40%" << endl;
 	}
 	else
 	{
-		cout << "The total is $" << (unitNumber * price) * discount4 << " including the discount of 50%" << endl;
+		cout << "The total is $" << total - (total * discount4) << " including the discount of 50%" << endl;
 	}
 
 	return 0;

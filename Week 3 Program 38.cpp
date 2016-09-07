@@ -11,6 +11,17 @@ using namespace std;
 
 int main()
 {
+
+	double charge = 2500; 
+	const double fee = .04;
+
+	for (int x = 1; x <= 6; x++)
+	{
+		cout << "Year " << x << " rates = " << charge << endl;
+		charge += charge * fee;
+	}
+	
+	cout << endl << endl;
 	const double	rate = 2500,
 					percent = .04;
 	double total = rate;

@@ -20,8 +20,35 @@ using namespace std;
 
 int main()
 {
+	srand(time(0));
+
+	int randomNum = rand() % 100 + 1;
+	int guess2;
+	int count2 = 0;
+
+	do
+	{
+		cout << "Guess the number ";
+		cin >> guess2;
+
+		if (guess2 > randomNum)
+		{
+			cout << "Too high" << endl;
+		}
+		else if (guess2 < randomNum)
+		{
+			cout << "Too low" << endl;
+		}
+
+		count2++;
+	} while (guess2 != randomNum);
+
+	cout << "Congrats only " << count2 << " try/tries." << endl;
+
+	cout << endl << endl;
+
 	int seed = time(0);
-	int number, guess, count = 1;
+	int number, guess, count = 0;
 	srand(seed);
 	number = rand() % 100 + 1;
 
@@ -44,7 +71,7 @@ int main()
 		count++;
 	} while (guess != number);
 
-	if (count == 0)
+	if (count == 1)
 	{
 		cout << endl << "Congratulations. You figured out my number." << endl;
 	}

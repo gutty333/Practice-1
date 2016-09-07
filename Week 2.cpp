@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <iomanip>
 using namespace std;
 
 int main()
@@ -27,16 +28,20 @@ int main()
 
 	int little;
 	int big;
+	int medium;
 	little = 2;
 	big = 2000;
+	medium = 200000;
 	cout << endl << endl << "The little number is " << little << endl;
 	cout << "The big number is " << big << endl;
+	cout << "The medium number is " << medium << endl;
 
 
 	// Program with different data types for float
+	cout << fixed << setprecision(2) << endl;
 	float distance = 1.49E8; // This mean 1.49 x 10^8
-	double mass = 2E12; // This mean 12 x 10^12
-	cout << endl << endl << "Value is of distance is " << distance << endl;
+	double mass = 12E12; // This mean 12 x 10^12
+	cout << endl << endl << "Value of distance is " << distance << endl;
 	cout << "Value of mass is " << mass << endl;
 
 
@@ -51,8 +56,17 @@ int main()
 
 	// Program with a string data type 
 	string name = "Mike Wallace";
+	string temp = "Hello World this is awesome";
+	int temp2 = 25;
 	cout << endl << endl << "The client is " << name << endl;
 	cout << sizeof(name)<< endl;
+	cout << sizeof(temp) << endl;
+	cout << sizeof(string) << endl;
+	cout << sizeof(temp2) << endl;
+	cout << sizeof(int) << endl;
+	cout << sizeof(double) << endl;
+	cout << sizeof(char) << endl;
+	cout << name.length() << endl;
 
 
 

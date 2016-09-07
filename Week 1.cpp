@@ -8,6 +8,8 @@ int main()
 	
 	cout << endl << "Hi! It's me." << endl << endl;
 	cout << "I'm learning to program! " << endl;
+	cout << endl << "The force is strong with this" << endl;
+	cout << "\tThe amazing spider man\n";
 
 
 

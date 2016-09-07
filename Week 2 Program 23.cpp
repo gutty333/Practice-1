@@ -1,7 +1,7 @@
 /***********************************************
 	Batting Average
 
-	Ask the user to enter the number of times he when to bat
+	Ask the user to enter the number of times he went to bat
 	Also ask for the number of hits they got
 	Display the average up to 4 decimal points
 **************************************************/

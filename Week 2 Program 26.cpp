@@ -57,7 +57,7 @@ int main()
 
 	// Also note that by default things will print right align
 	// If you change the alignments, sometimes you need to reverse it back to align right
-	cout << left << setw(33) << "Movie Name:" << "\"" << movie << "\"" << endl;
+	cout << left << setw(35) << "Movie Name:" << "\"" << movie << "\"" << endl;
 	cout << left << setw(35) << "Adult Tickets Sold:" << adultTicket << endl;
 	cout << left << setw(35) << "Child Tickets Sold:" << childTicket << endl;
 	cout << left << setw(35) << "Gross Box Office Profit:" << fixed << setprecision(2) << "$" << right << setw(10) << total << endl;

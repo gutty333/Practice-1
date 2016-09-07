@@ -6,7 +6,6 @@ using namespace std;
 
 int main()
 {
-
 	int candyBar, amount;
 
 	cout << "How many candies did you sell today? ";

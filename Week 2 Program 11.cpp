@@ -5,6 +5,7 @@
 // Display the results for the twice a month pay checks and the bi weekly paychecks
 
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main()
@@ -14,11 +15,12 @@ int main()
 
 	int biMonth = 24, biWeekly = 26;
 
-	int biMonthPay, biWeeklyPay;
+	double biMonthPay, biWeeklyPay;
 
 	biMonthPay = salary / biMonth;
 	biWeeklyPay = salary / biWeekly;
 
+	cout << fixed << setprecision(2);
 	cout << "Your annual salary is $" << salary << endl;
 	cout << "Your pay checks twice a monthly are each $" << biMonthPay << endl;
 	cout << "Your pay checks if you are paid bi weekly are $" << biWeeklyPay << endl;
