@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Week 3 Program 44.cpp" />
+    <ClCompile Include="Week 2 Program 26.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{D88A9AEF-5ACB-438B-99B9-A15DE032F60C}</ProjectGuid>

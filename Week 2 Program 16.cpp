@@ -58,7 +58,7 @@ int main()
 	cout << "Enter a number between 10 and 45 ";
 	cin >> age;
 
-	cout << "How many kids you with to have? ";
+	cout << "How many kids you like to have? ";
 	cin >> kids;
 
 

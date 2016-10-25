@@ -10,9 +10,9 @@ using namespace std;
 int main()
 {
 
-	int x = 5;
+	double x = 5;
 
-	cout << fixed <<  showpoint<< setprecision(4) << x << endl;
+	cout << fixed <<  setprecision(4) << x << endl;
 
 
 	return 0;

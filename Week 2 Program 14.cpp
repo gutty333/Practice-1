@@ -1,6 +1,6 @@
 // Future Ocean Levels
 // Ocean is rising approximately 3.1 million millimeters per year
-// Write a program what calculates how much they will rise if this rate continues
+// Write a program that calculates how much they will rise if this rate continues
 // Display the answer in centimeters and inches
 
 #include <iostream>
